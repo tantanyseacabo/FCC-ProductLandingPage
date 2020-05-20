@@ -3,22 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header id="header">
       <div class="logo">
-        <img id="header-img" src="#" />
+        <img id="header-img" src="#" alt="Logo" />
       </div>
       <nav id="nav-bar">
         <ul>
-          <li class="nav-link"></li>
-          <li class="nav-link"></li>
-          <li class="nav-link"></li>
+          <li class="nav-link"><a href="#features">Features</a></li>
+          <li class="nav-link"><a href="#video">How it works</a></li>
+          <li class="nav-link"><a href="#cta">Join the Waitlist</a></li>
         </ul>
       </nav>
-      <main></main>
     </header>
+    <section id="features">
+      <div class="container">
+        <div class="item">
+          <img src="#" alt="#" />
+          <h2>Feature 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            quos autem id molestiae rem repellendus nihil, accusantium aut
+            explicabo odit maiores harum obcaecati iste numquam eveniet
+            asperiores, sit repellat saepe.
+          </p>
+        </div>
+        <div class="item">
+          <img src="#" alt="#" />
+          <h2>Feature 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            sint voluptatum voluptatibus. Saepe, cumque fuga aspernatur eveniet
+            repellat consequuntur. Asperiores id quaerat excepturi aut mollitia
+            praesentium provident ratione veniam aliquam!
+          </p>
+        </div>
+        <div class="item">
+          <img src="#" alt="#" />
+          <h2>Feature 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            iure illo ipsum ad eaque cupiditate numquam voluptatem harum ullam
+            sunt officiis suscipit cumque iusto ipsa nam explicabo, inventore,
+            similique repudiandae.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="video">
+      <div class="container">
+        <div class="item video">
+          <video src=""></video>
+        </div>
+        <div class="item">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            blanditiis modi rerum voluptatem eligendi porro molestiae, commodi,
+            et nam autem itaque cupiditate impedit aliquid quisquam corporis
+            magni rem, tempore magnam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Join the wailist to get exclusive insider access to the pre-sale</h3>
+      <div class="form">
+        <form
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+          id="form"
+        >
+          <label class="hidden" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          />
+          <label class="hidden" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <input type="submit" value="I WANT IT" />
+        </form>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="footer-logo">
+        <img src="#" alt="Logo" />
+      </div>
+      <div class="container">
+        <ul>
+          <li class="footer-nav"><a href="#features">Features</a></li>
+          <li class="footer-nav"><a href="#video">How it works</a></li>
+          <li class="footer-nav"><a href="#cta">Join the Waitlist</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>(c) Company Name, 2020</p>
+      </div>
+    </footer>
   </body>
 </html>
