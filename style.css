@@ -13,6 +13,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.2em 10%;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .logo {
@@ -55,8 +58,12 @@ body {
 }
 #video {
 }
+.video-description {
+  padding: 2rem;
+}
 .item-video {
 }
+
 #cta {
   text-align: center;
 }
@@ -74,9 +81,23 @@ body {
   padding: 1.2em 10%;
 }
 .footer-logo {
+  cursor: pointer;
 }
 .footer-nav {
   display: flex;
+}
+.footer-nav ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1.2em;
+}
+
+#nav-bar li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+}
+#nav-bar li a:hover {
+  color: #0088a9;
 }
 .copyright {
 }
